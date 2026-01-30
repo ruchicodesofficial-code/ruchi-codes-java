@@ -1,4 +1,4 @@
-package collection.framework.set;
+package collection.framework.map;
 import java.util.*;
 public class MapDemo {
     public static void main(String[] args) {
@@ -21,11 +21,31 @@ public class MapDemo {
         map.put(null,"Arya");
         map.put(4,null);
 //        System.out.println(map);
-
+        //containsKey(Object key)
+//        System.out.println(map.containsKey(1));
+//containsValue(Object value)
+        System.out.println(map.containsValue("Arya"));
+        //size
+        System.out.println(map.size());
+        //isEmpty
+        System.out.println(map.isEmpty());
+        //keySet()
+        System.out.println(map.keySet());
+        //values
+        System.out.println(map.values());
+        //entrySet
+        System.out.println(map.entrySet());
+        //clear
+//        map.clear();
+//
+        map.putIfAbsent(6,"richa");
+        System.out.println(map);
         Map<Integer,String> table = new Hashtable<>();
-        table.put(1,"Ruchi");
-        table.put(null,"Admin");
-        System.out.println(table);
+//        table.put(1,"Ruchi");
+//        table.put(null,"Admin");
+//        System.out.println(table);
+
+
     }
 
 
