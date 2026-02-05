@@ -1,4 +1,4 @@
-package oops.association;
+package oops.association.onetoone;
 
 public class Student {
     int id;
